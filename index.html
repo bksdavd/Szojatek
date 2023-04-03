@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Találd ki a szót!</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h1>Találd ki a szót</h1>
+        <div class="tartalom">
+            <input type="text" class="type-input" maxlength="1">
+            <div class="szo"></div>
+            <div class="info">
+                <p class="tipp">Tipp: <span></span></p>
+                <p class="rossz">Hibák: <span></span></p>
+                <p class="hint">Segítség: <span></span></p>
+            </div>
+            <div class="gombok">
+                <button class="ujra">Újrakezdés</button>
+                <button class="showhint">Pici segítség</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="word.db.js"></script>
+</body>
+</html>
